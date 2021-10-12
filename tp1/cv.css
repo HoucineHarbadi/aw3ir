@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(47, 227, 233, 0.2);
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    min-width: 800px;
+    box-shadow: 0 1px 20px rgb(154, 208, 221);
+    cursor: pointer;
+    margin: 50px auto;
+    border: none solid midnightblue;
+}
+
+td, tr{
+    padding: 10px 10px;
+}
+tbody tr, td{
+    border: 0,5px solid #ddd;
+}
+tbody tr:nth-child(even){
+    background-color: #bfecf0;
+}
+title, h1{
+    
+}

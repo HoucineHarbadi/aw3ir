@@ -1,0 +1,19 @@
+table{ border-collapse: collapse;}
+
+.html2{
+    background-color: mistyrose;
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+    
+}
+
+img:hover{
+    transform: scale(2);
+}
+
+h1{
+    position: relative;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

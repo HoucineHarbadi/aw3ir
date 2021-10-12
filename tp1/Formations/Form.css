@@ -1,0 +1,17 @@
+.html1{
+    background-color: navajowhite;
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+    
+}
+
+h1{
+    position: relative;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img:hover{
+    transform: scale(2);
+}
