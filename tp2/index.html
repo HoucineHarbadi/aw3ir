@@ -9,7 +9,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="Formulaire.css" />
+        <script type="text/javascript" src="Validation.js"></script>
         <style>
           body{
               background-color: #e9ebee;              
@@ -25,9 +26,45 @@
         <!--<script src="js/main.js"></script>-->
     </head>
     <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+        <h1 align="center ">Saisie d'une fiche "Personne"</h1>
+       <table>
+        <form id="formulaire" method="post">
+            <tr> 
+                <td><label for="nom"> Nom :</label></td>
+                <td><input type="text" name="nom" id="nom" placeholder=" " minlength="5" maxlength="20"/></td>
+            </tr>
+        
+            <tr> 
+                <td><label for="prenom">Prenom :</label></td>
+                <td><input type="text" name="prenom" id="prenom" placeholder=" " minlength="5" maxlength="20"/></td>
+            </tr>
+        
+            <tr> 
+                <td><label for="date">Date de naissance :</label></td>
+                <td><input type="date" name="date" id="date" placeholder="JJ/MM/AAAA" /></td>
+            </tr>
+
+            <tr> 
+                <td><label for="adresse">Adresse :</label></td>
+                <td><input type="text" name="adresse" id="adresse" placeholder=" " minlength="5" maxlength="50"/></td>
+            </tr>
+        
+            <tr> 
+                <td><label for="mail">Mail :</label></td>
+                <td><input type="email" name="mail" id="mail" placeholder="wyz@mail.com" minlength="5" maxlength="30"/></td>
+            </tr>
+            <tr>
+                <td> 
+
+                </td>
+                <td><input type="button" value="Valider" onclick="validation()"/></td>
+            </tr>
+        </form>
+      
+    </table>
+     
+    <div id="error"  hidden></div>
+    <div id="resultat" hidden> </div>
+        
     </body>
 </html>
